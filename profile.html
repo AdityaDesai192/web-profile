@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditya Desai - Resume</title>
+  <link rel="stylesheet" href="profile.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <nav class="left-nav">
+      <div class="profile">
+        <img src="my.jpeg" alt="Aditya Desai" class="profile-img" />
+        <hr class="divider" />
+      </div>
+      <ul>
+        <li>
+          <a href="#home" onclick="toggleSection('home', this)">Home</a>
+          <div id="home" class="section mini-section">
+            Welcome to my resume site. Explore my skills, projects, and qualifications.
+          </div>
+        </li>
+        <li>
+          <a href="#aim" onclick="toggleSection('aim', this)">Aim</a>
+          <div id="aim" class="section mini-section">
+            Aspiring to become a passionate and perfect data structurist and web developer.
+          </div>
+        </li>
+        <li>
+          <a href="#projects" onclick="toggleSection('projects', this)">Projects</a>
+          <div id="projects" class="section mini-section">
+            <ul>
+              <li><b>Simon Game:</b> A memory-enhancing game using HTML, CSS, JS where users recall color sequences.</li>
+              <li><b>College Finder by State:</b> Users select a state to view colleges using an API.</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#qualification" onclick="toggleSection('qualification', this)">Qualifications</a>
+          <div id="qualification" class="section mini-section">
+            <ul>
+              <li>BE (ECE) - Nagarjuna College of Engineering & Tech, Bangalore</li>
+              <li>PU - Sri Chaitanya PU College, Ilkal - 83.33%</li>
+              <li>10th - Margadarshan Central School, Ilkal - 77.7%</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#certifications" onclick="toggleSection('certifications', this)">Certifications</a>
+          <div id="certifications" class="section mini-section">
+            <ul>
+              <li>NPTEL Java Program</li>
+              <li>Infosys Springboard Java Program</li>
+              <li>YBI Foundation - Data Science & AI/ML</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="hero">
+        <div class="screen-box">
+          <img src="html.jpeg" class="hero-logo" />
+          <img src="css.jpeg" class="hero-logo" />
+          <img src="javascript.jpeg" class="hero-logo" />
+          <img src="java.jpeg" class="hero-logo" />
+        </div>
+        <div class="intro">
+          <h1>Aditya Desai</h1>
+          <p>Web Developer | Java Programmer | Data Structures Enthusiast</p>
+          <p>Email: desaiaditya940@gmail.com | Phone: 8073063943</p>
+          <p>Location: Devanahalli, Bangalore</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="profile.js"></script>
+</body>
+</html>

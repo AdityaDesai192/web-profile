@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #111;
+}
+
+.container {
+  display: flex;
+}
+
+.left-nav {
+  width: 230px;
+  background-color: #f5f5f5;
+  height: 100vh;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.divider {
+  border: none;
+  height: 4px;
+  background-color: #111;
+  margin: 15px 0;
+}
+
+.left-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.left-nav li a {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  color: #111;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.left-nav li a:hover,
+.left-nav li a.active {
+  background-color: #111;
+  color: #fff;
+  font-weight: bold;
+}
+
+.mini-section {
+  display: none;
+  font-size: 14px;
+  padding: 8px;
+  margin-top: 5px;
+  background-color: #eaeaea;
+  color: #111;
+  border-radius: 6px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.screen-box {
+  width: 90%;
+  height: 50vh;
+  margin: 0 auto 20px;
+  background-color: #fafafa;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.hero-logo {
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.intro h1 {
+  margin: 10px 0 5px;
+  font-size: 32px;
+  color: #111;
+}
